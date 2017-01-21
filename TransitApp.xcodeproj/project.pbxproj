@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AF66D7D1E3423B2002CD137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF66D7C1E3423B2002CD137 /* AppDelegate.swift */; };
+		9AF66D7F1E3423B2002CD137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF66D7E1E3423B2002CD137 /* ViewController.swift */; };
+		9AF66D821E3423B2002CD137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF66D801E3423B2002CD137 /* Main.storyboard */; };
+		9AF66D841E3423B2002CD137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF66D831E3423B2002CD137 /* Assets.xcassets */; };
+		9AF66D871E3423B2002CD137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF66D851E3423B2002CD137 /* LaunchScreen.storyboard */; };
+		9AF66D921E3423B2002CD137 /* TransitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF66D911E3423B2002CD137 /* TransitAppTests.swift */; };
+		9AF66D9D1E3423B2002CD137 /* TransitAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF66D9C1E3423B2002CD137 /* TransitAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AF66D8E1E3423B2002CD137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AF66D711E3423B2002CD137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AF66D781E3423B2002CD137;
+			remoteInfo = TransitApp;
+		};
+		9AF66D991E3423B2002CD137 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AF66D711E3423B2002CD137 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AF66D781E3423B2002CD137;
+			remoteInfo = TransitApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9AF66D791E3423B2002CD137 /* TransitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF66D7C1E3423B2002CD137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AF66D7E1E3423B2002CD137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AF66D811E3423B2002CD137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AF66D831E3423B2002CD137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AF66D861E3423B2002CD137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AF66D881E3423B2002CD137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF66D8D1E3423B2002CD137 /* TransitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF66D911E3423B2002CD137 /* TransitAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitAppTests.swift; sourceTree = "<group>"; };
+		9AF66D931E3423B2002CD137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AF66D981E3423B2002CD137 /* TransitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF66D9C1E3423B2002CD137 /* TransitAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitAppUITests.swift; sourceTree = "<group>"; };
+		9AF66D9E1E3423B2002CD137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AF66D761E3423B2002CD137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF66D8A1E3423B2002CD137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF66D951E3423B2002CD137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AF66D701E3423B2002CD137 = {
+			isa = PBXGroup;
+			children = (
+				9AF66D7B1E3423B2002CD137 /* TransitApp */,
+				9AF66D901E3423B2002CD137 /* TransitAppTests */,
+				9AF66D9B1E3423B2002CD137 /* TransitAppUITests */,
+				9AF66D7A1E3423B2002CD137 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AF66D7A1E3423B2002CD137 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AF66D791E3423B2002CD137 /* TransitApp.app */,
+				9AF66D8D1E3423B2002CD137 /* TransitAppTests.xctest */,
+				9AF66D981E3423B2002CD137 /* TransitAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AF66D7B1E3423B2002CD137 /* TransitApp */ = {
+			isa = PBXGroup;
+			children = (
+				9AF66D7C1E3423B2002CD137 /* AppDelegate.swift */,
+				9AF66D7E1E3423B2002CD137 /* ViewController.swift */,
+				9AF66D801E3423B2002CD137 /* Main.storyboard */,
+				9AF66D831E3423B2002CD137 /* Assets.xcassets */,
+				9AF66D851E3423B2002CD137 /* LaunchScreen.storyboard */,
+				9AF66D881E3423B2002CD137 /* Info.plist */,
+			);
+			path = TransitApp;
+			sourceTree = "<group>";
+		};
+		9AF66D901E3423B2002CD137 /* TransitAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AF66D911E3423B2002CD137 /* TransitAppTests.swift */,
+				9AF66D931E3423B2002CD137 /* Info.plist */,
+			);
+			path = TransitAppTests;
+			sourceTree = "<group>";
+		};
+		9AF66D9B1E3423B2002CD137 /* TransitAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AF66D9C1E3423B2002CD137 /* TransitAppUITests.swift */,
+				9AF66D9E1E3423B2002CD137 /* Info.plist */,
+			);
+			path = TransitAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AF66D781E3423B2002CD137 /* TransitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF66DA11E3423B2002CD137 /* Build configuration list for PBXNativeTarget "TransitApp" */;
+			buildPhases = (
+				9AF66D751E3423B2002CD137 /* Sources */,
+				9AF66D761E3423B2002CD137 /* Frameworks */,
+				9AF66D771E3423B2002CD137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransitApp;
+			productName = TransitApp;
+			productReference = 9AF66D791E3423B2002CD137 /* TransitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AF66D8C1E3423B2002CD137 /* TransitAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF66DA41E3423B2002CD137 /* Build configuration list for PBXNativeTarget "TransitAppTests" */;
+			buildPhases = (
+				9AF66D891E3423B2002CD137 /* Sources */,
+				9AF66D8A1E3423B2002CD137 /* Frameworks */,
+				9AF66D8B1E3423B2002CD137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AF66D8F1E3423B2002CD137 /* PBXTargetDependency */,
+			);
+			name = TransitAppTests;
+			productName = TransitAppTests;
+			productReference = 9AF66D8D1E3423B2002CD137 /* TransitAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AF66D971E3423B2002CD137 /* TransitAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AF66DA71E3423B2002CD137 /* Build configuration list for PBXNativeTarget "TransitAppUITests" */;
+			buildPhases = (
+				9AF66D941E3423B2002CD137 /* Sources */,
+				9AF66D951E3423B2002CD137 /* Frameworks */,
+				9AF66D961E3423B2002CD137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AF66D9A1E3423B2002CD137 /* PBXTargetDependency */,
+			);
+			name = TransitAppUITests;
+			productName = TransitAppUITests;
+			productReference = 9AF66D981E3423B2002CD137 /* TransitAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AF66D711E3423B2002CD137 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Tecnojam;
+				TargetAttributes = {
+					9AF66D781E3423B2002CD137 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A5KJ3Z3G6S;
+						ProvisioningStyle = Automatic;
+					};
+					9AF66D8C1E3423B2002CD137 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A5KJ3Z3G6S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AF66D781E3423B2002CD137;
+					};
+					9AF66D971E3423B2002CD137 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A5KJ3Z3G6S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AF66D781E3423B2002CD137;
+					};
+				};
+			};
+			buildConfigurationList = 9AF66D741E3423B2002CD137 /* Build configuration list for PBXProject "TransitApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AF66D701E3423B2002CD137;
+			productRefGroup = 9AF66D7A1E3423B2002CD137 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AF66D781E3423B2002CD137 /* TransitApp */,
+				9AF66D8C1E3423B2002CD137 /* TransitAppTests */,
+				9AF66D971E3423B2002CD137 /* TransitAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AF66D771E3423B2002CD137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF66D871E3423B2002CD137 /* LaunchScreen.storyboard in Resources */,
+				9AF66D841E3423B2002CD137 /* Assets.xcassets in Resources */,
+				9AF66D821E3423B2002CD137 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF66D8B1E3423B2002CD137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF66D961E3423B2002CD137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AF66D751E3423B2002CD137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF66D7F1E3423B2002CD137 /* ViewController.swift in Sources */,
+				9AF66D7D1E3423B2002CD137 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF66D891E3423B2002CD137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF66D921E3423B2002CD137 /* TransitAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AF66D941E3423B2002CD137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF66D9D1E3423B2002CD137 /* TransitAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AF66D8F1E3423B2002CD137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AF66D781E3423B2002CD137 /* TransitApp */;
+			targetProxy = 9AF66D8E1E3423B2002CD137 /* PBXContainerItemProxy */;
+		};
+		9AF66D9A1E3423B2002CD137 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AF66D781E3423B2002CD137 /* TransitApp */;
+			targetProxy = 9AF66D991E3423B2002CD137 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AF66D801E3423B2002CD137 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF66D811E3423B2002CD137 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AF66D851E3423B2002CD137 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AF66D861E3423B2002CD137 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AF66D9F1E3423B2002CD137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AF66DA01E3423B2002CD137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AF66DA21E3423B2002CD137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
+				INFOPLIST_FILE = TransitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.TransitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9AF66DA31E3423B2002CD137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
+				INFOPLIST_FILE = TransitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.TransitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9AF66DA51E3423B2002CD137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
+				INFOPLIST_FILE = TransitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.TransitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransitApp.app/TransitApp";
+			};
+			name = Debug;
+		};
+		9AF66DA61E3423B2002CD137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
+				INFOPLIST_FILE = TransitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.TransitAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TransitApp.app/TransitApp";
+			};
+			name = Release;
+		};
+		9AF66DA81E3423B2002CD137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
+				INFOPLIST_FILE = TransitAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.TransitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TransitApp;
+			};
+			name = Debug;
+		};
+		9AF66DA91E3423B2002CD137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
+				INFOPLIST_FILE = TransitAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.TransitAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TransitApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AF66D741E3423B2002CD137 /* Build configuration list for PBXProject "TransitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF66D9F1E3423B2002CD137 /* Debug */,
+				9AF66DA01E3423B2002CD137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AF66DA11E3423B2002CD137 /* Build configuration list for PBXNativeTarget "TransitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF66DA21E3423B2002CD137 /* Debug */,
+				9AF66DA31E3423B2002CD137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AF66DA41E3423B2002CD137 /* Build configuration list for PBXNativeTarget "TransitAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF66DA51E3423B2002CD137 /* Debug */,
+				9AF66DA61E3423B2002CD137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9AF66DA71E3423B2002CD137 /* Build configuration list for PBXNativeTarget "TransitAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AF66DA81E3423B2002CD137 /* Debug */,
+				9AF66DA91E3423B2002CD137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AF66D711E3423B2002CD137 /* Project object */;
+}
