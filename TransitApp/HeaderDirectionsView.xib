@@ -1,16 +1,93 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderDirectionsView" customModule="TransitApp" customModuleProvider="target">
+            <connections>
+                <outlet property="arrivalTimeLabel" destination="Ihz-JM-DGB" id="oOI-Ur-Vp3"/>
+                <outlet property="directionsCollectionView" destination="YcY-7x-3xb" id="ahN-3l-3mU"/>
+                <outlet property="durationLabel" destination="GyL-4x-bsg" id="PDj-et-yG1"/>
+                <outlet property="priceLabel" destination="Ths-VH-jSS" id="pPB-vq-YEs"/>
+                <outlet property="startingTimeLabel" destination="7TS-v1-c36" id="FqA-mJ-ZR0"/>
+                <outlet property="view" destination="iN0-l3-epB" id="UOc-Oz-2XS"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="375" height="116"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="jTP-AA-Qvq">
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconPlaceholderSmall" translatesAutoresizingMaskIntoConstraints="NO" id="K8C-BP-g2O"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyL-4x-bsg">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3x4-9E-eQy">
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconPlaceholderSmall" translatesAutoresizingMaskIntoConstraints="NO" id="3eC-e1-KC1"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ths-VH-jSS">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="eyb-Kw-fYr">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7TS-v1-c36">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ArrowIcon" translatesAutoresizingMaskIntoConstraints="NO" id="PhK-gB-tdq"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ihz-JM-DGB">
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="YcY-7x-3xb">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="yAg-jf-Zkj"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xCc-kG-rSz">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3x4-9E-eQy" firstAttribute="leading" secondItem="jTP-AA-Qvq" secondAttribute="trailing" constant="15" id="3LN-C0-Hwo"/>
+                <constraint firstItem="jTP-AA-Qvq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Guk-jo-Acf"/>
+                <constraint firstItem="YcY-7x-3xb" firstAttribute="leading" secondItem="jTP-AA-Qvq" secondAttribute="leading" id="M39-hx-do6"/>
+                <constraint firstItem="3x4-9E-eQy" firstAttribute="top" secondItem="jTP-AA-Qvq" secondAttribute="top" id="VHM-57-mEn"/>
+                <constraint firstItem="eyb-Kw-fYr" firstAttribute="top" secondItem="jTP-AA-Qvq" secondAttribute="top" id="bLZ-9Z-TQP"/>
+                <constraint firstAttribute="bottom" secondItem="YcY-7x-3xb" secondAttribute="bottom" constant="10" id="bQF-QK-xuc"/>
+                <constraint firstItem="jTP-AA-Qvq" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="iJp-or-bGF"/>
+                <constraint firstItem="eyb-Kw-fYr" firstAttribute="trailing" secondItem="YcY-7x-3xb" secondAttribute="trailing" id="oMh-Ey-bb1"/>
+                <constraint firstAttribute="trailing" secondItem="eyb-Kw-fYr" secondAttribute="trailing" constant="10" id="yhf-Hx-IwP"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="33.5" y="-222"/>
         </view>
     </objects>
+    <resources>
+        <image name="ArrowIcon" width="15" height="8"/>
+        <image name="IconPlaceholderSmall" width="20" height="20"/>
+    </resources>
 </document>

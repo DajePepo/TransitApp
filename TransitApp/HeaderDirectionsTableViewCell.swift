@@ -9,16 +9,20 @@
 import UIKit
 
 class HeaderDirectionsTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    var cellModel: DirectionsOptionViewModel? {
+        didSet {
+            headerDirectionsView.model = cellModel
+        }
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    @IBOutlet weak var headerDirectionsView: HeaderDirectionsView!
+    
+    func setCollectionViewDataSourceDelegate<D: UICollectionViewDataSource & UICollectionViewDelegate>(_ dataSourceDelegate: D, forRow row: Int) {
+        headerDirectionsView.directionsCollectionView.delegate = dataSourceDelegate
+        headerDirectionsView.directionsCollectionView.dataSource = dataSourceDelegate
+        headerDirectionsView.directionsCollectionView.tag = row
+        headerDirectionsView.directionsCollectionView.reloadData()
     }
-
 }
+

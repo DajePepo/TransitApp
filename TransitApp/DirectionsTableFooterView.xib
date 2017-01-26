@@ -3,18 +3,57 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="104"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DirectionsTableFooterView" customModule="TransitApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="25"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QJy-Ao-DDT">
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t8e-nQ-C5I">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="nHN-IT-suT"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconPlaceholderMedium" translatesAutoresizingMaskIntoConstraints="NO" id="phD-qJ-JTu">
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="phD-qJ-JTu" secondAttribute="height" multiplier="1:1" id="Yd8-M7-bnp"/>
+                                <constraint firstAttribute="width" constant="25" id="sO6-ql-sNf"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OB3-Ps-S3N">
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="QJy-Ao-DDT" secondAttribute="bottom" id="8JZ-Eb-kbR"/>
+                <constraint firstAttribute="trailing" secondItem="QJy-Ao-DDT" secondAttribute="trailing" id="aCH-l0-9It"/>
+                <constraint firstItem="QJy-Ao-DDT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lD0-wA-UMs"/>
+                <constraint firstItem="QJy-Ao-DDT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="sNb-Bl-ESO"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="33.5" y="-213"/>
+            <connections>
+                <outlet property="nameLabel" destination="OB3-Ps-S3N" id="KaD-K7-k11"/>
+                <outlet property="timeLabel" destination="t8e-nQ-C5I" id="ADG-OT-tG7"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="-252.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="IconPlaceholderMedium" width="25" height="25"/>
+    </resources>
 </document>

@@ -6,4 +6,13 @@
 //  Copyright © 2017 Tecnojam. All rights reserved.
 //
 
-import Foundation
+public struct Direction {
+    var name: String?
+    var numStops: Int
+    var stops: [Stop]
+    var travelMode: String
+    var description: String?
+    var color: String
+    var iconUrl: String
+    var polyline: String?
+}

@@ -8,15 +8,7 @@
 
 import UIKit
 
-class ChooseWayCollectionViewCell: UICollectionViewCell {
-    
-    @IBOutlet weak var wayIcon: UIImageView!
-    @IBOutlet weak var selectionBackground: UIView! {
-        didSet {
-            selectionBackground.layer.cornerRadius = 6
-            selectionBackground.isHidden = true
-        }
-    }
+class ChooseModeCollectionViewCell: UICollectionViewCell {
     
     override var isSelected: Bool {
         didSet {
@@ -24,17 +16,23 @@ class ChooseWayCollectionViewCell: UICollectionViewCell {
         }
     }
     
-    var cellModel: DirectionsModeViewModel? {
+    var cellModel: String? {
         didSet {
             bindViewModel()
         }
     }
+
+    @IBOutlet weak var modeIcon: UIImageView!
+    @IBOutlet weak var modeTitle: UILabel!
+    @IBOutlet weak var selectionBackground: UIView! {
+        didSet {
+            selectionBackground.layer.cornerRadius = 6
+            selectionBackground.isHidden = true
+        }
+    }
     
     func bindViewModel() {
-        guard let model = cellModel else {
-            return
-        }
-    
-        wayIcon.image = UIImage(named: model.iconUrl)
+        modeIcon.image = UIImage(named: "ModeIconSmall")
+        modeTitle.text = cellModel
     }
 }

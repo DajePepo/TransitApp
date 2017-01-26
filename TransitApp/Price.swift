@@ -6,4 +6,7 @@
 //  Copyright © 2017 Tecnojam. All rights reserved.
 //
 
-import Foundation
+public struct Price {
+    var currency: String
+    var amount: Double
+}

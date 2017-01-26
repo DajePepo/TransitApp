@@ -8,28 +8,46 @@
 
 import UIKit
 
+enum TimeType: String {
+    case start = "Start"
+    case arrival = "Arrival"
+}
+
+protocol SelectTimeProtocol {
+    func dismissSelectTimeView()
+    func updateTime(type: TimeType, time: Date)
+}
+
 class SelectTimeViewController: UIViewController {
+    
+    
+    // MARK: - Variables
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    var delegate: SelectTimeProtocol?
 
-        // Do any additional setup after loading the view.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    // MARK: - Outlets
+
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    @IBOutlet weak var datePicker: UIDatePicker!
     
 
-    /*
-    // MARK: - Navigation
+    // MARK: - Actions
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func didClickedOnCancelButton(_ sender: AnyObject) {
+        delegate?.dismissSelectTimeView()
     }
-    */
-
+    
+    @IBAction func didClickedOnConfirmButton(_ sender: AnyObject) {
+        if  let selectedOption = segmentedControl.titleForSegment(at: segmentedControl.selectedSegmentIndex),
+            let timeType = TimeType(rawValue: selectedOption) {
+            delegate?.updateTime(type: timeType, time: datePicker.date)
+        }
+    }
+    
+    
+    func configure(withInitialDate date: Date) {
+        datePicker.setDate(date, animated: false)
+    }
+    
 }

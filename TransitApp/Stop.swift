@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+public struct Stop {
+    var name: String?
+    var latitude: Double
+    var longitude: Double
+    var time: Date
+    var color: String
+}

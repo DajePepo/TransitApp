@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+public struct DirectionsOption {
+    var mode: String
+    var provider: String
+    var price: Price?
+    var directions: [Direction]
+}

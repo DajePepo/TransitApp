@@ -10,12 +10,23 @@ import UIKit
 
 class DirectionsTableFooterView: UIView {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    var footerModel: DirectionsOptionViewModel? {
+        didSet {
+            bindViewModel()
+        }
     }
-    */
+
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    class func loadFromNib() -> DirectionsTableFooterView? {
+        let xib = UINib(nibName: "DirectionsTableFooterView", bundle: nil)
+        return xib.instantiate(withOwner: nil, options: nil)[0] as? DirectionsTableFooterView
+    }
+    
+    func bindViewModel() {
+        timeLabel.text = footerModel?.arrivalTime
+        nameLabel.text = footerModel?.arrivalAddress
+    }
 
 }

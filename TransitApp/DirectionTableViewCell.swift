@@ -10,15 +10,20 @@ import UIKit
 
 class DirectionTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    var cellModel: StopViewModel? {
+        didSet {
+            bindViewModel()
+        }
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var lineView: UIButton!
 
-        // Configure the view for the selected state
+    func bindViewModel() {
+        timeLabel.text = cellModel?.time
+        nameLabel.text = cellModel?.name
+        lineView.backgroundColor = UIColor(hexString: cellModel?.color ?? "#000000")
     }
 
 }
