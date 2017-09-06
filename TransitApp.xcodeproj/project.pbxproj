@@ -98,6 +98,8 @@
 		9A7BC3321E342EE800F4A208 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC3311E342EE800F4A208 /* Constants.swift */; };
 		9A7BC3331E342EE800F4A208 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC3311E342EE800F4A208 /* Constants.swift */; };
 		9A7BC3341E342EE800F4A208 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7BC3311E342EE800F4A208 /* Constants.swift */; };
+		9AA4AACB1F5FFF86006C162A /* SearchDirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA4AACA1F5FFF86006C162A /* SearchDirectionsViewController.swift */; };
+		9AA4AACD1F5FFF93006C162A /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA4AACC1F5FFF93006C162A /* PlaceTableViewCell.swift */; };
 		9AF66D7D1E3423B2002CD137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF66D7C1E3423B2002CD137 /* AppDelegate.swift */; };
 		9AF66D7F1E3423B2002CD137 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF66D7E1E3423B2002CD137 /* MapViewController.swift */; };
 		9AF66D821E3423B2002CD137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF66D801E3423B2002CD137 /* Main.storyboard */; };
@@ -108,15 +110,9 @@
 		9AFF012D1E3684C00007A523 /* PlaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF012C1E3684C00007A523 /* PlaceViewModel.swift */; };
 		9AFF012E1E3684C00007A523 /* PlaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF012C1E3684C00007A523 /* PlaceViewModel.swift */; };
 		9AFF012F1E3684C00007A523 /* PlaceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF012C1E3684C00007A523 /* PlaceViewModel.swift */; };
-		9AFF01311E3687C70007A523 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF01301E3687C70007A523 /* PlaceTableViewCell.swift */; };
-		9AFF01321E3687C70007A523 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF01301E3687C70007A523 /* PlaceTableViewCell.swift */; };
-		9AFF01331E3687C70007A523 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF01301E3687C70007A523 /* PlaceTableViewCell.swift */; };
 		9AFF01351E36BBAE0007A523 /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF01341E36BBAE0007A523 /* SelectTimeViewController.swift */; };
 		9AFF01361E36BBAE0007A523 /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF01341E36BBAE0007A523 /* SelectTimeViewController.swift */; };
 		9AFF01371E36BBAE0007A523 /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFF01341E36BBAE0007A523 /* SelectTimeViewController.swift */; };
-		9AFFB9471E3526720075C92B /* SearchDirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFB9461E3526720075C92B /* SearchDirectionsViewController.swift */; };
-		9AFFB9481E3526720075C92B /* SearchDirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFB9461E3526720075C92B /* SearchDirectionsViewController.swift */; };
-		9AFFB9491E3526720075C92B /* SearchDirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFB9461E3526720075C92B /* SearchDirectionsViewController.swift */; };
 		9AFFB94F1E3577D10075C92B /* SearchAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFB94E1E3577D10075C92B /* SearchAddressViewController.swift */; };
 		9AFFB9501E3577D10075C92B /* SearchAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFB94E1E3577D10075C92B /* SearchAddressViewController.swift */; };
 		9AFFB9511E3577D10075C92B /* SearchAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFB94E1E3577D10075C92B /* SearchAddressViewController.swift */; };
@@ -180,6 +176,8 @@
 		9A5262871E365693005AE376 /* PlaceDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDataManager.swift; sourceTree = "<group>"; };
 		9A7BC3291E342D5A00F4A208 /* SearchViewModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModelController.swift; sourceTree = "<group>"; };
 		9A7BC3311E342EE800F4A208 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9AA4AACA1F5FFF86006C162A /* SearchDirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDirectionsViewController.swift; sourceTree = "<group>"; };
+		9AA4AACC1F5FFF93006C162A /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		9AF66D791E3423B2002CD137 /* TransitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AF66D7C1E3423B2002CD137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AF66D7E1E3423B2002CD137 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -194,9 +192,7 @@
 		9AF66D9C1E3423B2002CD137 /* TransitAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitAppUITests.swift; sourceTree = "<group>"; };
 		9AF66D9E1E3423B2002CD137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AFF012C1E3684C00007A523 /* PlaceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceViewModel.swift; sourceTree = "<group>"; };
-		9AFF01301E3687C70007A523 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		9AFF01341E36BBAE0007A523 /* SelectTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
-		9AFFB9461E3526720075C92B /* SearchDirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDirectionsViewController.swift; sourceTree = "<group>"; };
 		9AFFB94E1E3577D10075C92B /* SearchAddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAddressViewController.swift; sourceTree = "<group>"; };
 		B01B16F70F5BAC4A92F33323 /* Pods-TransitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TransitApp/Pods-TransitApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D9D21E70495B70B49340D739 /* Pods-TransitAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TransitAppUITests/Pods-TransitAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -248,9 +244,9 @@
 			isa = PBXGroup;
 			children = (
 				9AF66D7E1E3423B2002CD137 /* MapViewController.swift */,
-				9AFFB9461E3526720075C92B /* SearchDirectionsViewController.swift */,
+				9AA4AACA1F5FFF86006C162A /* SearchDirectionsViewController.swift */,
 				9AFFB94E1E3577D10075C92B /* SearchAddressViewController.swift */,
-				9AFF01301E3687C70007A523 /* PlaceTableViewCell.swift */,
+				9AA4AACC1F5FFF93006C162A /* PlaceTableViewCell.swift */,
 				9AFF01341E36BBAE0007A523 /* SelectTimeViewController.swift */,
 			);
 			name = "Search Views";
@@ -525,7 +521,7 @@
 				TargetAttributes = {
 					9AF66D781E3423B2002CD137 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = A5KJ3Z3G6S;
+						DevelopmentTeam = VN725332M5;
 						ProvisioningStyle = Automatic;
 					};
 					9AF66D8C1E3423B2002CD137 = {
@@ -615,7 +611,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		17D1117DF0CAF3E9FD7F7A67 /* [CP] Check Pods Manifest.lock */ = {
@@ -630,7 +626,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		231ED97F4C746C88F2C0DC1F /* [CP] Copy Pods Resources */ = {
@@ -705,7 +701,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		8DA6DE431CCBD93FE47B337E /* [CP] Embed Pods Frameworks */ = {
@@ -745,10 +741,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFF01311E3687C70007A523 /* PlaceTableViewCell.swift in Sources */,
 				9A4D4CBE1E37B5B500F2FDF9 /* DirectionsOptionViewModel.swift in Sources */,
 				9A4D4CD21E37C77100F2FDF9 /* DirectionsDataManager.swift in Sources */,
-				9AFFB9471E3526720075C92B /* SearchDirectionsViewController.swift in Sources */,
 				9A1B590A1E39FBF000DA01EC /* DirectionsTableFooterView.swift in Sources */,
 				9A4D4CC61E37C0F100F2FDF9 /* Direction.swift in Sources */,
 				9A4D4CE61E381BB700F2FDF9 /* HeaderDirectionsView.swift in Sources */,
@@ -762,6 +756,7 @@
 				9A4D4D021E38FAAB00F2FDF9 /* DirectionTableViewCell.swift in Sources */,
 				9AFF01351E36BBAE0007A523 /* SelectTimeViewController.swift in Sources */,
 				9A4D4CC21E37BF6A00F2FDF9 /* Stop.swift in Sources */,
+				9AA4AACD1F5FFF93006C162A /* PlaceTableViewCell.swift in Sources */,
 				9A5262881E365693005AE376 /* PlaceDataManager.swift in Sources */,
 				9AF66D7F1E3423B2002CD137 /* MapViewController.swift in Sources */,
 				9A37EEC71E3915BE0086DD56 /* MapViewExtension.swift in Sources */,
@@ -776,6 +771,7 @@
 				9A4D4CAA1E37ABB400F2FDF9 /* ChooseModeCollectionViewCell.swift in Sources */,
 				9A7BC32A1E342D5A00F4A208 /* SearchViewModelController.swift in Sources */,
 				9A4D4CCE1E37C3DF00F2FDF9 /* StopViewModel.swift in Sources */,
+				9AA4AACB1F5FFF86006C162A /* SearchDirectionsViewController.swift in Sources */,
 				9A5262861E362115005AE376 /* Place.swift in Sources */,
 				9A7BC3321E342EE800F4A208 /* Constants.swift in Sources */,
 				9A4D4CA61E37A8C300F2FDF9 /* ChooseDirectionsViewController.swift in Sources */,
@@ -788,7 +784,6 @@
 			files = (
 				9AFF012E1E3684C00007A523 /* PlaceViewModel.swift in Sources */,
 				9AFF01361E36BBAE0007A523 /* SelectTimeViewController.swift in Sources */,
-				9AFFB9481E3526720075C92B /* SearchDirectionsViewController.swift in Sources */,
 				9A1B590F1E3A2C4500DA01EC /* SearchDirectionsViewModel.swift in Sources */,
 				9A4D4CA71E37A8C300F2FDF9 /* ChooseDirectionsViewController.swift in Sources */,
 				9AF66D921E3423B2002CD137 /* TransitAppTests.swift in Sources */,
@@ -814,7 +809,6 @@
 				9A4D4CFF1E38EE1C00F2FDF9 /* ShowViewModelController.swift in Sources */,
 				9A4D4CBB1E37B51D00F2FDF9 /* DirectionsOption.swift in Sources */,
 				9A4D4CEF1E3829DE00F2FDF9 /* HeaderDirectionsTableViewCell.swift in Sources */,
-				9AFF01321E3687C70007A523 /* PlaceTableViewCell.swift in Sources */,
 				9A1B590B1E39FBF000DA01EC /* DirectionsTableFooterView.swift in Sources */,
 				9A4D4D031E38FAAB00F2FDF9 /* DirectionTableViewCell.swift in Sources */,
 			);
@@ -826,7 +820,6 @@
 			files = (
 				9AFF012F1E3684C00007A523 /* PlaceViewModel.swift in Sources */,
 				9AFF01371E36BBAE0007A523 /* SelectTimeViewController.swift in Sources */,
-				9AFFB9491E3526720075C92B /* SearchDirectionsViewController.swift in Sources */,
 				9A1B59101E3A2C4500DA01EC /* SearchDirectionsViewModel.swift in Sources */,
 				9A4D4CA81E37A8C300F2FDF9 /* ChooseDirectionsViewController.swift in Sources */,
 				9AF66D9D1E3423B2002CD137 /* TransitAppUITests.swift in Sources */,
@@ -852,7 +845,6 @@
 				9A4D4D001E38EE1C00F2FDF9 /* ShowViewModelController.swift in Sources */,
 				9A4D4CBC1E37B51D00F2FDF9 /* DirectionsOption.swift in Sources */,
 				9A4D4CF01E3829DE00F2FDF9 /* HeaderDirectionsTableViewCell.swift in Sources */,
-				9AFF01331E3687C70007A523 /* PlaceTableViewCell.swift in Sources */,
 				9A1B590C1E39FBF000DA01EC /* DirectionsTableFooterView.swift in Sources */,
 				9A4D4D041E38FAAB00F2FDF9 /* DirectionTableViewCell.swift in Sources */,
 			);
@@ -991,7 +983,7 @@
 			baseConfigurationReference = B01B16F70F5BAC4A92F33323 /* Pods-TransitApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
+				DEVELOPMENT_TEAM = VN725332M5;
 				INFOPLIST_FILE = TransitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.TransitApp;
@@ -1005,7 +997,7 @@
 			baseConfigurationReference = 60F9CD814855B863C5A7F6D1 /* Pods-TransitApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
+				DEVELOPMENT_TEAM = VN725332M5;
 				INFOPLIST_FILE = TransitApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.TransitApp;
